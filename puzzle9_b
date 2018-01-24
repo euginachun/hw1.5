@@ -1,0 +1,58 @@
+function repeat (direction,n) {
+  var count = 0 
+  while (count < n) {
+    direction();
+    count = count +1 }
+}
+
+function draw (direction,n) {
+  var count = 0
+  while (count < n) {
+	setColor("blue");
+  direction();
+  count = count + 1 }
+}
+
+draw (down, 20);
+
+repeat (up,1)
+repeat (right,3);
+
+draw (up, 20);
+
+repeat (up,1)
+repeat (right,3);
+
+draw (down, 20);
+
+repeat (up,1)
+repeat (right,3);
+
+draw (up, 20);
+
+repeat (right,3);
+
+draw (down, 20);
+
+repeat (up,1)
+repeat (right,3);
+
+draw (up, 20);
+
+repeat (right,3);
+
+draw (down, 20);
+
+repeat (up,1)
+repeat (right,3);
+
+draw (up, 20);
+
+repeat (right,3);
+
+draw (down, 20);
+
+repeat (up,1)
+repeat (right,3);
+
+draw (up, 20);
